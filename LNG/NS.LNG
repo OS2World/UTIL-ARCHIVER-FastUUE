@@ -1,0 +1,14 @@
+; (q) by sk // [rAN], 1999.
+; newstat.dll
+
+scr.ns.wrong.timestamp="%warning% Timestamp '%hilight%%1%normal%' seems to be wrong.#0d#0a"
+log.ns.wrong.timestamp="Timestamp '%1' seems to be wrong."
+
+scr.ns.wrong.interval="%warning% Interval '%hilight%%1%normal%' seems to be wrong.#0d#0a"
+log.ns.wrong.interval="Interval '%1' seems to be wrong."
+
+scr.ns.wrong.base="%warning% ns.base seems to be wrong.#0d#0a"
+log.ns.wrong.base="ns.base seems to be wrong."
+
+scr.ns.group.startup="%info% NS group '%hilight%%1%normal%' startup, %2scan, %3make, %4total, %5hour, %6subj, %7from, %8to.#0d#0a"
+log.ns.group.startup="NS group '%1' startup, %2scan, %3make, %4total, %5hour, %6subj, %7from, %8to."

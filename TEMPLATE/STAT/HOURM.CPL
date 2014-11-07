@@ -1,0 +1,12 @@
+@assign @bar @nothing
+@assign @scs @nothing
+@leftpad @hour 4
+@leftpad @hourmsgs 6
+@convsize @hoursize 7
+@leftpad @hoursize 7
+@scale @scs @hourmsgs @maxmsgs 49
+@padch @bar @scs Û
+@padch @bar 49 °
+³ @hour ³ @bar ³ @hourmsgs ³ @hoursize ³
+@destroy @scs
+@destroy @bar

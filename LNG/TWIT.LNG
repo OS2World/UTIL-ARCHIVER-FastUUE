@@ -1,0 +1,94 @@
+; (c) by Sergey Korowkin, 1998.
+;
+; %1 - from
+; %2 - to
+; %3 - fromaddr
+; %4 - toaddr
+; %5 - subj
+; %6 - date
+; %7 - sourcearea
+; %8 - param
+;
+twithead="$0f TWIT:$07"
+;
+scr.twit.do.move="%info%%twithead% Moved %hilight%%7%normal% to %hilight%%8%normal%.#0d#0a"
+log.twit.do.move="TWIT: Moved %7 to %8."
+;
+scr.twit.do.kill="%info%%twithead% Killed %hilight%%7%normal%.#0d#0a"
+log.twit.do.kill="TWIT: Killed %7."
+;
+scr.twit.do.save="%info%%twithead% %hilight%%7%normal%, saved to %hilight%%8%normal%.#0d#0a"
+log.twit.do.save="TWIT: %7, saved to %8."
+;
+scr.twit.do.copy="%info%%twithead% Copied %hilight%%7%normal% to %hilight%%8%normal%.#0d#0a"
+log.twit.do.copy="TWIT: Copied %7 to %8."
+;
+scr.twit.do.backup="%info%%twithead% Backuped %hilight%%7%normal%.#0d#0a"
+log.twit.do.backup="TWIT: Backuped %7."
+;
+scr.twit.do.restore="%info%%twithead% Restored %hilight%%7%normal%.#0d#0a"
+log.twit.do.restore="TWIT: Restored %7."
+;
+scr.twit.do.set.from="%info%%twithead% Changed from-name to %hilight%%8%normal%.#0d#0a"
+log.twit.do.set.from="TWIT: Changed from-name to %8."
+;
+scr.twit.do.set.to="%info%%twithead% Changed to-name to %hilight%%8%normal%.#0d#0a"
+log.twit.do.set.to="TWIT: Changed to-name to %8."
+;
+scr.twit.do.set.subject="%info%%twithead% Changed subject to %hilight%%8%normal%.#0d#0a"
+log.twit.do.set.subject="TWIT: Changed subject to %8."
+;
+scr.twit.do.set.from.address="%info%%twithead% Changed from-address to %hilight%%8%normal%.#0d#0a"
+log.twit.do.set.from.address="TWIT: Changed from-address to %8."
+;
+scr.twit.do.set.to.address="%info%%twithead% Changed to-address to %hilight%%8%normal%.#0d#0a"
+log.twit.do.set.to.address="TWIT: Changed to-address to %8."
+;
+scr.twit.do.swap.address="%info%%twithead% Addresses swapped.#0d#0a"
+log.twit.do.swap.address="TWIT: Addresses swapped."
+;
+scr.twit.do.swap.name="%info%%twithead% Names swapped.#0d#0a"
+log.twit.do.swap.name="TWIT: Names swapped."
+;
+scr.twit.do.invalidate.with.kludges="%info%%twithead% Invalidated with kludges.#0d#0a"
+log.twit.do.invalidate.with.kludges="TWIT: Invalidated with kludges."
+;
+scr.twit.do.invalidate="%info%%twithead% Invalidated.#0d#0a"
+log.twit.do.invalidate="TWIT: Invalidated."
+;
+scr.twit.do.kill.strings="%info%%twithead% Killed all strings matched '%hilight%%8%normal%'.#0d#0a"
+log.twit.do.kill.strings="TWIT: Killed all strings matched '%8'."
+;
+scr.twit.do.make.echomail="%info%%twithead% Echomail now.#0d#0a"
+log.twit.do.make.echomail="TWIT: Echomail now."
+;
+scr.twit.do.add.header="%info%%twithead% Added header %hilight%%8%normal%.#0d#0a"
+log.twit.do.add.header="TWIT: Added header %8."
+;
+scr.twit.do.add.footer="%info%%twithead% Added footer %hilight%%8%normal%.#0d#0a"
+log.twit.do.add.footer="TWIT: Added footer %8."
+;
+scr.twit.do.display="%info%%twithead% %8.#0d#0a"
+log.twit.do.display="TWIT: %8."
+;
+scr.twit.do.create="%info%%twithead% Created %hilight%%8%normal%.#0d#0a"
+log.twit.do.create="TWIT: Created %8."
+;
+scr.twit.do.exec="%info%%twithead% Exec %hilight%%8%normal%.#0d#0a"
+log.twit.do.exec="TWIT: Exec %8."
+;
+scr.twit.do.copyanother="%info%%twithead% CopyAnother %hilight%%8%normal%.#0d#0a"
+log.twit.do.copyanother="TWIT: CopyAnother %8."
+;
+scr.twit.copyanother.error="%warning%%twithead% Unable to post, MSGOUT reports: %hilight%%1%normal%.#0d#0a"
+log.twit.copyanother.error="TWIT: Unable to post, MSGOUT reports: %1."
+;
+scr.twit.backup/restore.bug="%warning%%twithead% %hilight%Backup%normal%/%hilight%Restore%normal% is not synched.#0d#0a"
+log.twit.backup/restore.bug="TWIT: Backup/Restore is not synched."
+;
+scr.twit.unrecognized.action="%warning%%twithead% Unrecognized action %hilight%%1%normal%.#0d#0a"
+log.twit.unrecognized.action="TWIT: Unrecognized action %1."
+;
+scr.twit.do.only.netmail="%warning%%twithead% %hilight%%8%normal% can be applied only in %title%NETMAIL%normal%.#0d#0a"
+log.twit.do.only.netmail="TWIT: %8 can be applied only in NETMAIL."
+;

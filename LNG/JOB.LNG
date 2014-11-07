@@ -1,0 +1,16 @@
+; (c) by Sergey Korowkin, 1998.
+scr.dob.wrong.block="%error% Cannot find block %hilight%%1%normal%.#0d#0a"
+log.dob.wrong.block="Cannot find block %1."
+;
+scr.dob.wrong.declaration="%error% Error in declaration: '%hilight%%1%normal%'.#0d#0a"
+log.dob.wrong.declaration="Error in declaration: '%1'."
+;
+scr.dob.error="%warning% Error while posting, rc=#%hilight%%1%normal%.#0d#0a"
+log.dob.error="Error while posting, rc=#%1."
+;
+scr.dob="%info% %title%DOB%normal%: %hilight%%1%normal%.#0d#0a"
+log.dob="DOB: %1."
+;
+scr.dob.ok="%info% %title%DOB%normal%: ok.#0d#0a"
+scr.dob.ok="DOB: Ok."
+;

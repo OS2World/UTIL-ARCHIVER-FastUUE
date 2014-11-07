@@ -1,0 +1,12 @@
+@assign @bar @nothing
+@assign @scs @nothing
+@leftpad @day 3
+@leftpad @daymsgs 6
+@convsize @daysize 7
+@leftpad @daysize 7
+@scale @scs @daymsgs @maxmsgs 50
+@padch @bar @scs Û
+@padch @bar 50 °
+³ @day ³ @bar ³ @daymsgs ³ @daysize ³
+@destroy @scs
+@destroy @bar

@@ -1,0 +1,7 @@
+; (c) by sergey korowkin, 1999.
+
+scr.gate.table.wrong="%error% Table %hilight%%1%normal% is wrong.#0d#0a"
+log.gate.table.wrong="Table %1 is wrong."
+
+scr.gate.using.table="%info% Using table %hilight%%1%normal% [%hilight%%2%normal%].#0d#0a"
+log.gate.using.table="Using table %1 [%2]."

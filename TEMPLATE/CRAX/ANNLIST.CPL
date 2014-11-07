@@ -1,0 +1,13 @@
+@pad @filename 12
+@convsize @size 8
+@leftpad @size 8
+@pad @title 55
+>@filename @size @title
+@assign @tmp [из @echo]
+@pad @tmp 55
+                       @tmp
+@destroy @tmp
+@assign @tmp @sender.name [@sender.address] -> @receiver.name
+@pad @tmp 55
+                       @tmp
+@destroy @tmp

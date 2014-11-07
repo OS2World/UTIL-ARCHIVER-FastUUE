@@ -1,0 +1,7 @@
+@leftpad @no 3
+@pad @name 36
+@leftpad @address 14
+@leftpad @msgs 4
+@convsize @size 6
+@leftpad @size 6
+³ @no ³ @name ³ @address ³ @msgs ³ @size ³

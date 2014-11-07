@@ -1,0 +1,8 @@
+; (c) by Sergey Korowkin, 1998.
+archead="$0f ARCHIVER:$07"
+;
+scr.archiver.wrong.block="%error%%archead% Unknown block '%hilight%%1%normal%'.#0d#0a"
+log.archiver.wrong.block="ARCHIVER: Unknown block '%1'."
+;
+scr.archiver.exec.bad="%error%%bbshead% Exec rc=%hilight2%%1%normal%.#0d#0a%error%%bbshead% Cmdline: %title%%2%normal%#0d#0a"
+log.archiver.exec.bad="ARCHIVER: exec rc=%1, cmdline '%2'."

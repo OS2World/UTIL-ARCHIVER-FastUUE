@@ -1,0 +1,116 @@
+; (c) by Sergey Korowkin, 1998.
+scr.scanning.started="%info% %title%Scanning started.#0d#0a"
+log.scanning.started="Scanning started."
+;
+scr.scanning.stopped="%info% %title%Scanning stopped, %hilight%%1%title%s, %hilight%%2%title%kb, %hilight%%3%title%kb/sec.#0d#0a"
+log.scanning.stopped="Scanning stopped, %1s, %2kb, %3kb/s."
+;
+;scr.scanning.pkt.start="%info% PKT directories detected (%hilight%%1%normal%).#0d#0a%info% PKT scanning started.#0d#0a"
+;log.scanning.pkt.start=""
+;
+;scr.scanning.pkt.stop="%info% PKT scanning stopped#0d#0a"
+;log.scanning.pkt.stop=""
+;
+scr.scanning.pkt.none="%warning% No PKT directories detected, PKT scanning skipped.#0d#0a"
+log.scanning.pkt.none=""
+;
+scr.scanning.pkt.no.mask="%warning% No %hilight%Packets.Mask%normal% defined, PKT scanning skipped.#0d#0a"
+log.scanning.pkt.no.mask=""
+;
+scr.scanning.pkt.reading="%info% Searching for packets"
+log.scanning.pkt.reading=""
+;
+scr.scanning.pkt.readed="%normal% -- %hilight%%1%normal% packets found, total size %hilight%%3%normal%kb.#0d#0a"
+log.scanning.pkt.readed="%1 packets [%3kb]."
+;
+scr.scan.pkt.opened="%info% Packet %hilight%%1%normal%, size %hilight%%2%normal%kb.#0d#0a"
+log.scan.pkt.opened="Packet %1 [%2kb]."
+;
+scr.scan.pkt.preloading="%info% Loading %title%%1%normal% [%title%%2%normal%] into memory.#0d#0a"
+log.scan.pkt.preloading="Loading %1 [%2] into memory."
+;
+scr.scan.pkt.open.error="%error% Error while opening %hilight%%1%normal%, code %hilight%%2%normal%.#0d#0a"
+log.scan.pkt.open.error="Packet %1 -- error while opening (code %2)."
+;
+scr.scan.pkt.info="%info%   from %hilight2%%1%normal% to %hilight2%%2%normal%#0d#0a"
+log.scan.pkt.info="Packet from %1 to %2"
+;
+scr.scan.pkt.error.id="%error% Unknown ID of message -- %hilight%%1%normal% (must be 0 or 2) at %hilight%%2%normal%.#0d#0a"
+log.scan.pkt.error.id="Wrong ID -- %1 at %2, must be 0 or 2."
+;
+scr.scan.pkt.error.read="%error% Error reading at %hilight%%1%normal%.#0d#0a"
+log.scan.pkt.error.read="Error reading at %1."
+;
+scr.scan.pkt.exitnow="%warning% Abnormal scanning termination.#0d#0a"
+log.scan.pkt.exitnow="Scanning stopped by ExitNow."
+;
+scr.scan.unexported="%warning% Detected %hilight%%1%normal% unexported messages, they are killed.#0d#0a"
+log.scan.unexported="Detected %1 unexported messages, they area killed."
+;
+scr.scan.cannot.export="%error% Cannot export messages because repacking mode is disabled.#0d#0a"
+log.scan.cannot.export="Cannot export messages because repacking mode is disabled."
+;
+scr.scan.exporting="%info% Exporting messages (%hilight%%1%normal%).#0d#0a"
+log.scan.exporting="Exporting messages (%1)."
+;
+scr.scan.exporting.message="%info%  %title%%1%normal% [%hilight%%3%normal%] -> %title%%2%normal%, %hilight2%%7%normal%.#0d#0a"
+log.scan.exporting.message="%1 [%3] -> %2, %7."
+; %1 - from
+; %2 - to
+; %3 - fromaddr
+; %4 - toaddr
+; %5 - subj
+; %6 - date
+; %7 - area
+;
+scr.scan.unexported.because.exitnow="%warning% %hilight%%1%normal% message(s) is not exported because %title%EXITNOW%normal%.#0d#0a"
+log.scan.unexported.because.exitnow="%1 message(s) is not exported because EXITNOW."
+;
+scr.scan.killed="%info% Killed %hilight%%1%normal%.#0d#0a"
+log.scan.killed="Killed %1."
+;
+scr.scan.empty="%info% No packets found, exiting.#0d#0a"
+log.scan.empty="No packets found, exiting."
+;
+scr.scanning.sorting="%info% Sorting packets...#0d#0a"
+;
+scr.scan.no.plugins.queued="%warning% No plugins queued for scanning.#0d#0a"
+log.scan.no.plugins.queued="No plugins queued for scanning."
+;
+scr.scan.plugins.queued="%info% %hilight%%1%normal% plugin(s) queued for scanning.#0d#0a"
+log.scan.plugins.queued="%1 plugin(s) queued for scanning."
+;
+scr.scan.plugin.queued="%info% %hilight%%1%normal% [%hilight%%2%normal%] queued.#0d#0a"
+log.scan.plugin.queued="%1 [%2] queued."
+;
+scr.scan.emptyline="#0d#0a"
+;
+scr.scan.stat="%info% [%hilight%%1%normal%] %hilight%%3%normal%ms [%hilight%%2%normal%s], %hilight%%4%normal%calls - '%title%%5%normal%'.#0d#0a"
+log.scan.stat="[%1] %3ms [%2s], %4cs - %5."
+;
+scr.scan.64kb="%warning% Unable to handle message larger than %hilight%%1%normal% byte(s).#0d#0a"
+log.scan.64kb="Unable to handle message larger than %1 byte(s)."
+;
+scr.scan.presaving="%info% Flushing presave buffers [%hilight%%1%normal% byte(s)]...#0d#0a"
+log.scan.presaving="Flushing presave buffers [%1 byte(s)]..."
+;
+scr.scan.max.fucktor="%info% Using non-standard presave factor %hilight%%1%normal%.#0d#0a"
+log.scan.max.fucktor="Using non-standard presave factor %1."
+;
+scr.scan.presave.allocated="%info% %hilight%%1%normal% byte(s) allocated for presave buffers.#0d#0a"
+log.scan.presave.allocated="%1 byte(s) allocated for presave buffers."
+;
+scr.scan.grunged="%error% Packet %hilight%%1%normal% possibly grunged!#0d#0a"
+log.scan.grunged="Packet %1 possibly grunged!"
+;
+scr.scan.grunged.pv="%error% Strange packet version -- %hilight%%1%normal%h [instead of %hilight%%2%normal%h]..#0d#0a"
+log.scan.grunged.pv="Strange packet version -- %1 [instead of 0002h].."
+;
+scr.scan.grunged.pe="%error% Strange packet end -- %hilight%%1%normal%h [instead of %hilight%%2%normal%h]..#0d#0a"
+log.scan.grunged.pe="Strange packet end -- %1 [instead of 0000h].."
+;
+scr.scan.reject.by.from="%info% Packet %hilight%%1%normal% rejected (from %hilight%%2%normal%).#0d#0a"
+log.scan.reject.by.from="Packet %1 rejected (from %2)."
+;
+scr.scan.reject.by.to="%info% Packet %hilight%%1%normal% rejected (to %hilight%%3%normal%).#0d#0a"
+log.scan.reject.by.to="Packet %1 rejected (to %3)."

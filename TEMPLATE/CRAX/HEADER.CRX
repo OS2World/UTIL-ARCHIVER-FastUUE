@@ -1,0 +1,26 @@
+>ษอฤอฤฤฤฤอฤออฤออออออออฤฤฤอออออฤออฤฤฤฤฤฤฤอออออฤอออออฤฤฤฤออออฤอฤฤฤออออฤออฤฤฤฤฤอป
+@assign @tmp กซ แโ์ ......... @echo
+@pad @tmp 73
+>บ @tmp บ
+@destroy @tmp
+@assign @tmp ” ฉซ ............ @filename
+@pad @tmp 73
+>บ @tmp บ
+@destroy @tmp
+@assign @tmp ’ฅฌ  ............ @subject
+@pad @tmp 73
+>บ @tmp บ
+@destroy @tmp
+@assign @tmp  ฃฎซฎขฎช ....... @title
+@pad @tmp 73
+>บ @tmp บ
+@destroy @tmp
+@assign @tmp โ .............. @sender.name (@sender.address)
+@pad @tmp 73
+>บ @tmp บ
+@destroy @tmp
+@assign @tmp  ............... @receiver.name (@receiver.address)
+@pad @tmp 73
+>บ @tmp บ
+@destroy @tmp
+>ศอฤออออฤฤฤอออฤฤออฤฤฤฤอออฤฤออออฤฤฤฤฤอออออฤออออฤฤอออออออฤออออออออฤฤฤฤฤออออออฤอผ

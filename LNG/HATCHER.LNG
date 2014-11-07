@@ -1,0 +1,66 @@
+; (c) by Sergey Korowkin, 1998.
+hathead="$0f HATCHER:$07"
+hatmsm="#0d$08               *$07"
+;
+; *** EXCEPTIONS ***
+;
+scr.hatcher.bad.repack.dir="%info%%bbshead% Bad repack directory.#0d#0a"
+log.hatcher.bad.repack.dir="HATCHER: Bad repack directory."
+;
+scr.hatcher.msm.start="%info%%hathead% Hatching file %hilight%%1%normal% from area %hilight2%%2%normal%:#0d#0a"
+log.hatcher.msm.start="HATCHER: Hatching file %1 from %2."
+;
+scr.hatcher.cannot.clean="%warning%%hathead% Error clearing directory %title%%1%normal%.#0d#0a"
+log.hatcher.cannot.clean="HATCHER: Error clearing directory %1."
+;
+scr.hatcher.copy.source.error="%error%%hathead% Error while opening source file %title%%1%normal%.#0d#0a"
+log.hatcher.copy.source.error="HATCHER: Error while opening source file %1."
+;
+scr.hatcher.copy.destination.error="%error%%hathead% Error while opening destination file %title%%1%normal%.#0d#0a"
+log.hatcher.copy.destination.error="HATCHER: Error while opening destination file %1."
+;
+scr.hatcher.cannot.kill="%error%%hathead% Error killing file %title%%1%normal%, code %hilight%%2%normal%.#0d#0a"
+log.hatcher.cannot.kill="HATCHER: Error killing file %1, rc=%2"
+;
+scr.hatcher.cannot.create="%error%%hathead% Error creating file %title%%1%normal%, code %hilight%%2%normal%.#0d#0a"
+log.hatcher.cannot.create="HATCHER: Error creating %1, rc=%2."
+;
+scr.hatcher.msm.packed="%hatmsm% packed to %title%%1%normal%, used %hilight2%%2%normal%.#0d#0a"
+log.hatcher.msm.packed="HATCHER: File packed to %1, used %2."
+;
+scr.hatcher.msm.repack.eq="%hatmsm% archivers equal, nothing to repack.#0d#0a"
+log.hatcher.msm.repack.eq="HATCHER: Archivers equal, nothing to repack."
+;
+scr.hatcher.msm.repacked="%hatmsm% repacked to %title%%1%normal%, used %hilight2%%2%normal%.#0d#0a"
+log.hatcher.msm.repacked="HATCHER: File repacked to %1, used %2."
+;
+scr.hatcher.msm.inf.packed="%hatmsm% packed inf. %title%%1%normal%, used %hilight2%%2%normal%.#0d#0a"
+log.hatcher.msm.inf.packed="HATCHER: Packed inf. %1, used %2."
+;
+scr.hatcher.msm.file_id.diz.packed="%hatmsm% packed %title%%1%normal%, used %hilight2%%2%normal%.#0d#0a"
+log.hatcher.msm.file_id.diz.packed="HATCHER: Packed %1, used %2."
+;
+scr.hatcher.msm.tic="%hatmsm% created %title%%1%normal%.#0d#0a"
+log.hatcher.msm.tic="HATCHER: Created %1."
+;
+scr.hatcher.cannot.create.dir="%warning%%hathead% Error creating directory %title%%1%normal%.#0d#0a"
+log.hatcher.cannot.create.dir="HATCHER: Error creating directory %1."
+;
+scr.hatcher.tic.unable="%error%%hathead% Unable to create tic using mask %hilight%%1%normal%.#0d#0a"
+log.hatcher.tic.unable="Unable to create tic using mask %1."
+;
+scr.hatcher.wrong.inbound="%error%%hathead% Wrong inbound directory %title%%1%normal%.#0d#0a"
+log.hatcher.wrong.inbound="HATCHER: Wrong inbound directory %1."
+;
+scr.hatcher.msm.saved="%hatmsm% saved %title%%1%normal%.#0d#0a"
+log.hatcher.msm.saved="HATCHER: Saved %1."
+;
+scr.hatcher.msm.list.updated="%hatmsm% updated %title%%1%normal%.#0d#0a"
+log.hatcher.msm.list.updated="HATCHER: Updated %1."
+;
+scr.hatcher.msm.done="%hatmsm% done.#0d#0a"
+log.hatcher.msm.done="HATCHER: done."
+;
+scr.hatcher.msm.renamed="%hatmsm% %hilight%%1%normal% renamed to %hilight%%2%normal%.#0d#0a"
+log.hatcher.msm.renamed="HATCHER: %1 renamed to %2."
+;

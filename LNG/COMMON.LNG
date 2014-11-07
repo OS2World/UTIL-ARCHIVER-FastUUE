@@ -1,0 +1,5 @@
+; (c) by Sergey Korowkin, 1998.
+commonhead="$0f COMMON:$07"
+;
+scr.common.flag.created = "%info%%commonhead% Created flag '%hilight%%1%normal%'.#0d#0a"
+log.common.flag.created = "Created flag '%1'"

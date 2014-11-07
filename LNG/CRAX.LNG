@@ -1,0 +1,31 @@
+; (c) by Sergey Korowkin, 1998.
+
+scr.crax.no.group="%info% No group for area '%hilight%%1%normal%'.#0d#0a"
+log.crax.no.group="No group for area '%1'."
+
+scr.crax.unable.to.start="%info% Unable to start - %hilight%%1%normal% is not defined correctly.#0d#0a"
+log.crax.unable.to.start="Unable to start - %1 is not defined correctly."
+
+scr.crax.found="%info% CRAx: %hilight%%1%normal% [%hilight%%2%normal%/%hilight%%3%normal%/%hilight%%4%normal%-%hilight%%5%normal%(%hilight%%6%normal%)/%hilight%%7%normal%].#0d#0a"
+log.crax.found="CRAx: %1 [%2/%3/%4-%5(%6)/%7]."
+
+scr.crax.renamed="%info% %hilight%%1%normal% renamed to %hilight%%2%normal%.#0d#0a"
+log.crax.renamed="%1 renamed to %2."
+
+scr.crax.dupe.encountered="%info% Dupe.#0d#0a"
+log.crax.dupe.encountered="Dupe."
+
+scr.crax.some.error="%info% %hilight%%1%normal% told us that there is error.#0d#0a"
+log.crax.some.error="%1 told us that there is error."
+
+scr.crax.error.announcing="%warning% Error announcing, code %hilight%%1%normal%h.#0d#0a"
+log.crax.error.announcing="Error announcing of file -- code %1h."
+
+scr.crax.list.added="%info% Added to announce pool [%hilight%%1%normal%].#0d#0a"
+log.crax.list.added="Added to announce pool [%1]."
+
+scr.crax.list.doing="%info% Announcing group '%hilight%%1%normal%' ['%hilight%%2%normal%'].#0d#0a"
+log.crax.list.doing="Announcing group '%1' ['%2']."
+
+scr.crax.unknown.group="%info% Unknown group '%hilight%%1%normal%'.#0d#0a"
+log.crax.unknown.group="Unknown group '%1'."

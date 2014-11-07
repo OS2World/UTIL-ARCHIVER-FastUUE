@@ -1,0 +1,13 @@
+@convsize @size 8
+ @filename: @size, "@subject"
+@assign @tmp @echo; @sections section(s)
+@pad @tmp 55
+                       @tmp
+@destroy @tmp
+@assign @tmp @sender.name [@sender.address] -> @receiver.name
+@pad @tmp 55
+                       @tmp
+@destroy @tmp
+@assign @tmp hatched as: @hfilename, saved as: @ffilename
+                       @tmp
+@destroy @tmp

@@ -1,0 +1,18 @@
+; (c) by Sergey Korowkin, 1998.
+annhead="$0f ANNOUNCE:$07"
+;
+scr.announce.unknown.group="%warning%%annhead% Cannot find group for area '%hilight%%1%normal%'.#0d#0a"
+log.announce.unknown.group="ANNOUNCE: Cannot find group for area %1."
+;
+scr.announce.bad.type="%warning%%annhead% Bad announce type in group %hilight%%1%normal%.#0d#0a"
+log.announce.bad.type="ANNOUNCE: Bad announce type in group %1."
+;
+scr.announce.create.error="%error%%annhead% Error creating file %hilight%%1%normal%, rc=%hilight%%2%normal%.#0d#0a"
+log.announce.create.error="Error creating file %1, rc=%2."
+;
+scr.announce.unable.generate="%error%%annhead% Unable to generate unique name from '%hilight%%1%normal%'.#0d#0a"
+log.announce.unable.generate="Unable to generate unique name from '%1'."
+;
+scr.announce.done="%info%%annhead% File %hilight%%1%normal% announced.#0d#0a"
+log.announce.done="File %1 announced."
+;

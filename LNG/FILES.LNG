@@ -1,0 +1,15 @@
+; (c) by Sergey Korowkin, 1998.
+fileshead="$0d FILES:$07"
+;
+scr.files.wrong.database="%error%%fileshead% Database filename is empty.#0d#0a"
+log.files.wrong.database="FILES: Database filename is empty."
+;
+scr.files.database.created="%info%%fileshead% %hilight%%1%normal% created.#0d#0a"
+log.files.database.created="FILES: %1 created."
+;
+scr.files.cannot.save="%error%%fileshead% Unable to store %hilight%%1%normal% [code %hilight%%2%normal%].#0d#0a"
+log.files.cannot.save="FILES: Unable to store %1 [code %2]."
+;
+scr.files.added="%info%%fileshead% Added %hilight%%1%normal% (size %hilight%%2%normal%, crc %hilight%%3%normal%).#0d#0a"
+log.files.added="FILES: Added %1 (size %2, crc %3)."
+;

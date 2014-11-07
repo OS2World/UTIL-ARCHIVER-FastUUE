@@ -1,0 +1,29 @@
+; (c) by Sergey Korowkin, 1998.
+scr.pathbld.wrong.root="%error% %hilight%pathbld.root%normal% is wrong in group %hilight2%%1%normal%.#0d#0a"
+log.pathbld.wrong.root="pathbld.root is wrong in group %1."
+;
+scr.pathbld.wrong.output="%error% %hilight%pathbld.output%normal% is wrong in group %hilight2%%1%normal%.#0d#0a"
+log.pathbld.wrong.output="pathbld.output is wrong in group %1."
+;
+scr.pathbld.old.base="%error% %hilight%%1%normal% cannot be loaded because it's old.#0d#0a"
+log.pathbld.old.base="%1 cannot be loaded because it's old."
+;
+scr.pathbld.created="%info% Created '%hilight%%1%normal%' (%hilight2%%2%normal%).#0d#0a"
+log.pathbld.created="Created '%1' (%2)."
+;
+scr.pathbld.loaded="%info% Loaded '%hilight%%1%normal%'.#0d#0a"
+log.pathbld.loaded="Loaded '%1'."
+;
+scr.pathbld.saved="%info% Stored '%hilight%%1%normal%'.#0d#0a"
+log.pathbld.saved="Stored '%1'."
+;
+scr.pathbld.making.1="%info% Creating path statistics "
+log.pathbld.making.1="Creating path statistics"
+;
+scr.pathbld.making.2="$0a."
+;
+scr.pathbld.making.3="%normal% done.#0d#0a"
+;
+scr.pathbld.cannot.make="%warning% Cannot make path statistics -- %hilight%EXITNOW%normal% flag detected.#0d#0a"
+log.pathbld.cannot.make="Cannot make path statistics -- EXITNOW flag deteced."
+;

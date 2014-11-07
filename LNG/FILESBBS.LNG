@@ -1,0 +1,84 @@
+; (c) by Sergey Korowkin, 1998.
+bbshead="$0f FILESBBS:$07"
+;
+; *** EXCEPTIONS ***
+;
+scr.filesbbs.bad.repack.dir="%info%%bbshead% Bad repack directory.#0d#0a"
+log.filesbbs.bad.repack.dir="FILESBBS: Bad repack directory."
+;
+scr.filesbbs.cannot.clean="%warning%%bbshead% Error clearing directory %title%%1%normal%.#0d#0a"
+log.filesbbs.cannot.clean="FILESBBS: Error clearing directory %1."
+;
+scr.filesbbs.wrong.packer="%error%%bbshead% Wrong packer %title%%1%normal%.#0d#0a"
+log.filesbbs.wrong.packer="FILESBBS: Wrong packer %1."
+;
+scr.filesbbs.wrong.unpacker="%error%%bbshead% Wrong unpacker %title%%1%normal%.#0d#0a"
+log.filesbbs.wrong.unpacker="FILESBBS: Wrong unpacker %1."
+;
+scr.filesbbs.arc.exec.bad="%error%%bbshead% Archiver rc=%hilight2%%1%normal%.#0d#0a%error%%bbshead% Cmdline: %title%%2%normal%#0d#0a"
+log.filesbbs.arc.exec.bad="FILESBBS: Archiver rc=%1, cmdline '%2'."
+;
+scr.filesbbs.copy.source.error="%error%%bbshead% Error while opening source file %title%%1%normal%.#0d#0a"
+log.filesbbs.copy.source.error="FILESBBS: Error while opening source file %1."
+;
+scr.filesbbs.copy.destination.error="%error%%bbshead% Error while opening destination file %title%%1%normal%.#0d#0a"
+log.filesbbs.copy.destination.error="FILESBBS: Error while opening destination file %1."
+;
+scr.filesbbs.cannot.kill="%error%%bbshead% Error killing file %title%%1%normal%, code %hilight%%2%normal%.#0d#0a"
+log.filesbbs.cannot.kill="HATCHER: Error killing file %1, rc=%2"
+;
+scr.filesbbs.cannot.create="%error%%bbshead% Error creating file %title%%1%normal%, code %hilight%%2%normal%.#0d#0a"
+log.filesbbs.cannot.create="FILESBBS: Error creating %1, rc=%2."
+;
+scr.filesbbs.inf.wrong.dir="%error%%bbshead% Wrong .inf-directory %title%%1%normal%.#0d#0a"
+log.filesbbs.inf.wrong.dir="FILESBBS: Wrong .inf-directory %1."
+;
+scr.filesbbs.bbs.wrong.dir="%error%%bbshead% Wrong files.bbs-directory %title%%1%normal%.#0d#0a"
+log.filesbbs.bbs.wrong.dir="FILESBBS: Wrong files.bbs-directory %1."
+;
+scr.filesbbs.file.wrong.dir="%error%%bbshead% Wrong file-directory %title%%1%normal%.#0d#0a"
+log.filesbbs.file.wrong.dir="FILESBBS: Wrong file-directory %1."
+;
+; *** MAIN STATUS MESSAGES ***
+;
+bbsmsm="#0d$08               *$07"
+;
+scr.filesbbs.msm.start="%info%%bbshead% Processing file %hilight%%1%normal% from area %hilight2%%2%normal%:#0d#0a"
+log.filesbbs.msm.start="FILESBBS: Processing file %1 from %2."
+;
+scr.filesbbs.msm.packed="%bbsmsm% packed to %title%%1%normal%, used %hilight2%%2%normal%.#0d#0a"
+log.filesbbs.msm.packed="FILESBBS: File packed to %1, used %2."
+;
+scr.filesbbs.msm.repack.eq="%bbsmsm% archivers equal, nothing to repack.#0d#0a"
+log.filesbbs.msm.repack.eq="FILESBBS: Archivers equal, nothing to repack."
+;
+scr.filesbbs.msm.repacked="%bbsmsm% repacked to %title%%1%normal%, used %hilight2%%2%normal%.#0d#0a"
+log.filesbbs.msm.repacked="FILESBBS: File repacked to %1, used %2."
+;
+scr.filesbbs.msm.inf.packed="%bbsmsm% packed inf. %title%%1%normal%, used %hilight2%%2%normal%.#0d#0a"
+log.filesbbs.msm.inf.packed="FILESBBS: Packed inf. %1, used %2."
+;
+scr.filesbbs.msm.file_id.diz.packed="%bbsmsm% packed %title%%1%normal%, used %hilight2%%2%normal%.#0d#0a"
+log.filesbbs.msm.file_id.diz.packed="FILESBBS: Packed %1, used %2."
+;
+scr.filesbbs.msm.inf.saved="%bbsmsm% saved %title%%1%normal%.#0d#0a"
+log.filesbbs.msm.inf.saved="FILESBBS: Saved %1."
+;
+scr.filesbbs.msm.bbs.updated="%bbsmsm% updated %title%%1%normal%.#0d#0a"
+log.filesbbs.msm.bbs.updated="FILESBBS: Updated %1."
+;
+scr.filesbbs.msm.file.saved="%bbsmsm% saved %title%%1%normal%.#0d#0a"
+log.filesbbs.msm.file.saved="FILESBBS: Saved %1."
+;
+scr.filesbbs.msm.list.updated="%bbsmsm% updated %title%%1%normal%.#0d#0a"
+log.filesbbs.msm.list.updated="FILESBBS: Updated %1."
+;
+scr.filesbbs.msm.dirdesc.updated="%bbsmsm% dirdesc %title%%1%normal%.#0d#0a"
+log.filesbbs.msm.dirdesc.updated="FILESBBS: dirdesc %1."
+;
+scr.filesbbs.msm.done="%bbsmsm% done.#0d#0a"
+log.filesbbs.msm.done="FILESBBS: done."
+;
+scr.filesbbs.msm.renamed="%bbsmsm% %hilight%%1%normal% renamed to %hilight%%2%normal%.#0d#0a"
+log.filesbbs.msm.renamed="FILESBBS: %1 renamed to %2."
+;

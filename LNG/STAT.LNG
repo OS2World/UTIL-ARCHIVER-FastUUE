@@ -1,0 +1,43 @@
+; (c) by Sergey Korowkin, 1998.
+stathead=""
+;
+scr.stat.unknown.block="%error%%stathead% Cannot find block '%hilight%%1%normal%'.#0d#0a"
+log.stat.unknown.block="Cannot find block '%1'."
+;
+scr.stat.bad.keyword="%error%%stathead% Wrong keyword '%hilight%%1%normal%'.#0d#0a"
+log.stat.bad.keyword="Wrong keyword %1."
+;
+scr.stat.db.created="%info%%stathead% Created '%hilight%%1%normal%'.#0d#0a"
+log.stat.db.created="Created '%1'."
+;
+scr.stat.db.loaded="%info%%stathead% Loaded '%hilight%%1%normal%'.#0d#0a"
+log.stat.db.loaded="Loaded '%1'."
+;
+scr.stat.db.error.creating="%error%%stathead% Error creating '%hilight%%1%normal%'.#0d#0a"
+log.stat.db.error.creating="Error creating base '%1'."
+;
+scr.stat.db.saved="%info%%stathead% Saved base '%hilight%%1%normal%'.#0d#0a"
+log.stat.db.saved="Saved base '%1'."
+;
+scr.stat.db.id="%warning%%stathead% Wrong .ID of '%hilight%%1%normal%', base recreated.#0d#0a"
+log.stat.db.id="Wrong .ID of %1, base recreated."
+;
+scr.stat.timestamp="%warning%%stathead% Wrong timestamp '%hilight%%1%normal%', ignored.#0d#0a"
+log.stat.timestamp="Wrong timestamp %1, ignored."
+;
+scr.stat.bad.period="%error%%stathead% Bad period '%hilight%%1%normal%'.#0d#0a"
+log.stat.bad.period="Bad period '%1'."
+;
+scr.stat.error.creating="%error%%stathead% Error creating '%hilight%%1%normal%'.#0d#0a"
+log.stat.error.creating="Error creating %1."
+;
+scr.stat.start="%info%%stathead% Creating statistics for '%hilight%%1%normal%': "
+log.stat.start="Creating statistics for %1."
+;
+scr.stat.dot="%title%%1"
+;
+scr.stat.dot.error="$0c%1"
+log.stat.dot.error="Wrong order item '%1'."
+;
+scr.stat.end=" %normal%done.#0d#0a"
+;

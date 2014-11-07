@@ -1,0 +1,22 @@
+Plugins Kill
+Plugins Add (DirPlugin)\COMMON.DLL
+Plugins Add (DirPlugin)\FUUEREXX.DLL
+;Plugins Add (DirPlugin)\SCAN.DLL
+;Plugins Add (DirPlugin)\crax.DLL
+;Plugins Add (DirPlugin)\NS.DLL
+;Plugins Add (DirPlugin)\UUE.DLL
+;Plugins Add (DirPlugin)\TEST.DLL
+;Plugins Add (DirPlugin)\ARCHIVER.DLL
+;Plugins Add (DirPlugin)\FILES.DLL
+;Plugins Add (DirPlugin)\MSGOUT.DLL
+;Plugins Add (DirPlugin)\ANNOUNCE.DLL
+;Plugins Add (DirPlugin)\HATCHER.DLL
+;Plugins Add (DirPlugin)\FILESBBS.DLL
+;Plugins Add (DirPlugin)\TWIT.DLL
+;Plugins Add (DirPlugin)\EMAIL.DLL
+;Plugins Add (DirPlugin)\ICQ.DLL
+;Plugins Add (DirPlugin)\H.DLL
+;Plugins Add (DirPlugin)\Crax.Dll
+;Plugins Add (DirPlugin)\logcut.DLL
+;Plugins Add (DirPlugin)\GATE.DLL
+;Plugins Add (DirPlugin)\Dob.DLL

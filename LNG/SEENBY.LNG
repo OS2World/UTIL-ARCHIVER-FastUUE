@@ -1,0 +1,23 @@
+; (c) by Sergey Korowkin, 1998.
+scr.seenby.old.base="%error% %hilight%%1%normal% cannot be loaded because it's old.#0d#0a"
+log.seenby.old.base="%1 cannot be loaded because it's old."
+;
+scr.seenby.loaded="%info% Loaded '%hilight%%1%normal%'.#0d#0a"
+log.seenby.loaded="Loaded '%1'."
+;
+scr.seenby.created="%info% Created '%hilight%%1%normal%' (%hilight2%%2%normal%).#0d#0a"
+log.seenby.created="Created '%1' (%2)."
+;
+scr.seenby.saved="%info% Stored '%hilight%%1%normal%'.#0d#0a"
+log.seenby.saved="Stored '%1'."
+;
+scr.seenby.making.1="%info% Creating SEEN-BY statistics "
+log.seenby.making.1="Creating SEEN-BY statistics"
+;
+scr.seenby.making.2="$0a."
+;
+scr.seenby.making.3="%normal% done.#0d#0a"
+;
+scr.seenby.cannot.make="%warning% Cannot make SEEN-BY statistics -- %hilight%EXITNOW%normal% flag detected.#0d#0a"
+log.seenby.cannot.make="Cannot make SEEN-BY statistics -- EXITNOW flag deteced."
+;

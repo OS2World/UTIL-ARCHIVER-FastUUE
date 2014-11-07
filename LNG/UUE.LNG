@@ -1,0 +1,99 @@
+; (c) by Sergey Korowkin, 1998.
+uuehead="$0e UUE:$07"
+;
+;scr.uue.init="%info%%uuehead% Startup sequence initiated.#0d#0a"
+log.uue.init=""
+;
+;scr.uue.done="%info%%uuehead% Shutdown sequence initiated.#0d#0a"
+log.uue.done=""
+;
+scr.uue.warnstop="%info%%uuehead% SCANNER stopped.#0d#0a"
+log.uue.warnstop=""
+;
+scr.uue.found.1="%info%%uuehead% %title%%1%normal% [%hilight2%%2%normal%/%hilight2%%3%normal%], area %hilight%%4%normal%#0d#0a"
+log.uue.found.1="UUE: %1 [%2/%3], area %4 (group %5 '%6')"
+;
+;scr.uue.found.2="%info%      Group %title%%5%normal% '%hilight2%%6%normal%'#0d#0a"
+;log.uue.found.2=""
+;
+;scr.uue.found.3=""
+;log.uue.found.3=""
+;
+scr.uue.unknown.group="%warning%%uuehead% Can't find group for area %title%%1%normal%.#0d#0a"
+log.uue.unknown.group="Cannot find group for area %1."
+;
+scr.uue.decoding.started="#0d#0a%info%%uuehead% Decoding started.#0d#0a"
+log.uue.decoding.started=""
+;
+scr.uue.decoding.done="%info%%uuehead% Decoding done.#0d#0a#0d#0a"
+log.uue.decoding.done=""
+;
+scr.uue.decoding.cancelled="%info%%uuehead% Decoding $0cCANCELLED%normal%.#0d#0a"
+log.uue.decoding.cancelled=""
+;
+scr.uue.analyzing.index="%info%%uuehead% Analyzing index... This may take several minutes...#0d#0a"
+log.uue.analyzing.index=""
+;
+scr.uue.analyzing.done="%info%%uuehead% Analyzed: %hilight2%%1%normal% section(s), %hilight2%%2%normal% complete, %hilight2%%3%normal% uncomplete file(s).#0d#0a"
+log.uue.analyzing.done="Analyzed: %1 section(s), %2 complete/%3 uncomplete file(s)."
+;
+scr.uue.analyzing.screwed="%info%%uuehead% Analyzing was screwed up.#0d#0a"
+log.uue.analyzing.screwed="Analyzing was screwed up."
+;
+scr.uue.trying="%info%%uuehead% Trying %title%%1%normal% "
+log.uue.trying=""
+;
+scr.uue.trying.section.error="$0csection error%title%: %hilight%%1%title%/%hilight%%2%title%/%hilight%%3%title%/%hilight%%4%title%/%hilight%%5%title%/%hilight%%6%title%/%hilight%%7%title%/%hilight%%8%title%/%hilight%%9%title%#0d#0a"
+log.uue.trying.section.error="Section error %1/%2/%3/%4/%5/%6/%7/%8/%9, resource file may be corrupted."
+;
+scr.uue.trying.section.crc="$0cfile CRC error %hilight%c %2%title%h/%hilight%f %3%title%h.#0d#0a"
+log.uue.trying.section.crc="File %1 CRC error: c %2h/f %3h."
+;
+scr.uue.trying.done="%normal%ok#0d#0a"
+log.uue.trying.done="%1 ok."
+;
+scr.uue.trying.group="%warning%%uuehead% Can't find group for area %title%%1%normal%.#0d#0a"
+log.uue.trying.group="Cannot find group for area %1."
+;
+scr.uue.temp.not.valid="%error%%uuehead% %hilight2%uue.Temp.Filename%normal% and/or %hilight2%uue.Temp.Filename.Backup%normal% is not valid.#0d#0a"
+log.uue.temp.not.valid="uue.Temp.Filename and/or uue.Temp.Filename.Backup is not valid."
+;
+scr.uue.copy.source.error="%error%%uuehead% Error while opening source file %title%%1%normal%.#0d#0a"
+log.uue.copy.source.error="Error while opening source file %1."
+;
+scr.uue.copy.destination.error="%error%%uuehead% Error while opening destination file %title%%1%normal%.#0d#0a"
+log.uue.copy.destination.error="Error while opening destination file %1."
+;
+scr.uue.not.announced="%warning%%uuehead% File is not announced -- %hilight%ANNOUNCER%normal% not present in system.#0d#0a"
+log.uue.not.announced="File is not announced -- ANNOUNCER not present in system."
+;
+scr.uue.error.announcing="%warning%%uuehead% Error announcing, code %hilight%%1%normal%h.#0d#0a"
+log.uue.error.announcing="Error announcing of file -- code %1h."
+;
+scr.uue.trying.dupe="%info%%uuehead%  $08*%normal% renamed to %hilight%%2%normal%.#0d#0a"
+log.uue.trying.dupe="File %1 renamed to %2."
+;
+scr.uue.we.must.kill.this="%info%%uuehead%  $08*%normal% dupe, killed.#0d#0a"
+log.uue.we.must.kill.this="Dupe, killed."
+;
+scr.uue.incomplete.file="%info%%uuehead% Incomplete file: %hilight%%1%normal%: %hilight%%2%normal% sections of %hilight%%3%normal%, days %hilight%%4%normal% of %hilight%%5%normal%.#0d#0a"
+log.uue.incomplete.file="Incomplete %1: %2 sections of %3."
+;
+scr.uue.complete.file="%info%%uuehead% Complete file: %hilight%%1%normal%: %hilight%%2%normal% sections of %hilight%%3%normal%, days %hilight%%4%normal% of %hilight%%5%normal%.#0d#0a"
+log.uue.complete.file="Complete %1: %2 sections of %3."
+;
+scr.uue.killed.because.bad="%info%%uuehead% Killed %hilight%%1%normal% because it too old [%hilight2%%2%normal%/%hilight2%%3%normal%].#0d#0a"
+log.uue.killed.because.bad="Killed %1 because it too old [%2/%3]."
+;
+scr.uue.badfiles.dumping="%info%%uuehead% Dumping badfile %hilight%%1%normal%. Reason: %hilight2%%2%normal%.#0d#0a"
+log.uue.badfiles.dumping="Dumping badfile %1. Reason: %2."
+;
+scr.uue.some.error="%info%%uuehead% %hilight%%1%normal% told us that there is error %hilight%%2%normal%.#0d#0a"
+log.uue.some.error="%1 told us that there is error %2."
+;
+scr.uue.list.announced="%info%%uuehead% List announced.#0d#0a"
+log.uue.list.announced="List announced."
+;
+scr.uue.headers.not.valid="%error%%uuehead% uueHeaders're not valid.#0d#0a"
+log.uue.headers.not.valid="uueHeaders're not valid."
+;

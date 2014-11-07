@@ -1,0 +1,6 @@
+@leftpad @no 3
+@pad @subj 53
+@leftpad @msgs 4
+@convsize @size 6
+@leftpad @size 6
+³ @no ³ @subj ³ @msgs ³ @size ³
